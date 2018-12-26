@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="app_name">OnlineShopApp</string>
+    <string name="FACEBOOK_APP_ID">638663483181606</string>
+    <string name="ACCOUNT_KIT_CLIENT_TOKEN">031bd645090a72c98d10f72b27260747</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_test">Test</string>
+
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:padding="30dp"
+        android:layout_centerVertical="true"
+        android:hint="Email"
+        android:id="@+id/admin_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hasibakon1996@gmail.com"/>
+
+    <EditText
+        android:padding="30dp"
+        android:layout_below="@+id/admin_email"
+        android:id="@+id/admin_password"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="hasibakonjoy"/>
+
+    <Button
+        android:id="@+id/log_in_admin"
+        android:padding="15dp"
+        android:layout_below="@+id/admin_password"
+        android:text="Log In"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FAFAFA"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:textColorHint="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:id="@+id/submit_comment"
+            android:layout_margin="15dp"
+            android:hint="Comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:id="@+id/address"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RadioButton
+                android:id="@+id/userAddress"
+                android:text="User Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <View
+                android:layout_width="20dp"
+                android:layout_height="1dp"
+                />
+            <RadioButton
+                android:id="@+id/otherAddress"
+                android:text="Other Address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </RadioGroup>
+
+
+        <EditText
+            android:textColorHint="@android:color/black"
+            android:textColorHighlight="@android:color/black"
+            android:id="@+id/submit_address"
+            android:layout_margin="15dp"
+            android:hint="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>

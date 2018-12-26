@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="3dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/cart_image"
+
+            android:layout_width="150dp"
+            android:layout_height="150dp" />
+        <LinearLayout
+            android:layout_marginLeft="5dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textStyle="bold"
+                android:layout_marginTop="8dp"
+                android:textSize="25dp"
+                android:id="@+id/cart_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AAAAA"
+                android:layout_marginBottom="3dp"/>
+            <TextView
+                android:background="@drawable/ring_shape"
+                android:textStyle="bold"
+                android:textSize="17dp"
+                android:text="$5"
+                android:textAlignment="center"
+                android:id="@+id/cart_price"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"/>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:id="@+id/cart_size"
+                android:text="T-Shirt Size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="3dp"/>
+            <TextView
+                android:text="Cotton quality"
+                android:id="@+id/cart_cotton_quality"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</android.support.v7.widget.CardView>
